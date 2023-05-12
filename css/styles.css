@@ -436,7 +436,7 @@ img {
 
         max-width: 1440px;
         background-color: rgba(46, 47, 66, 0.7);
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-mob@1x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-mob@1x.webp);
 
         position: relative;
         z-index: var(--z-index-hero);
@@ -461,7 +461,7 @@ img {
     (min-resolution: 2dppx) {
 
         .hero {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-mob@2x.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-mob@2x.webp);
         }
     }
 
@@ -474,7 +474,7 @@ img {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-tabl@1x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-tabl@1x.webp);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -482,7 +482,7 @@ img {
     (min-resolution: 2dppx) {
 
         .hero {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-tabl@2x.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-tabl@2x.webp);
         }
     }
 }
@@ -492,7 +492,7 @@ img {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-desktop@1x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-desktop@1x.webp);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -500,7 +500,7 @@ img {
     (min-resolution: 2dppx) {
 
         .hero {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-desktop@2x.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-desktop@2x.webp);
         }
     }
 
@@ -1593,6 +1593,7 @@ img {
 .portfolio-list {
     list-style: none;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
